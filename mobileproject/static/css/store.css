@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 70px;
+    width: 1510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    justify-content: center;
+    color:gray;
+}
+.sub{
+    height: 70px;
+    width: 1510px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.photos{
+    height: 200px;
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+img{
+    height: 130px;
+    width: 130px;
+}
+.header img{
+    height: 20px;
+    width: 20px;
+}
+.scrol{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+.pro{
+    height: 270px;
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.934);
+    border-radius: 25px;
+    color: aliceblue;
+    border: 1px transparent white;
+    box-shadow: 1px 1px 1px;
+}
+.watch{
+    height: 270px;
+    width: 290px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px transparent black;
+    background-color: rgba(240, 255, 255, 0.575);
+    box-shadow: 1px 1px 1px;
+}
+.ipad{
+    height: 270px;
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 1px transparent black;
+    box-shadow: 1px 1px 1px;
+    
+}
+.book{
+    height: 270px;
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px transparent white;
+    background-color: black;
+    border-radius: 25px;
+    box-shadow: 1px 1px 1px;
+    
+}
+.pod{
+    height: 270px;
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding: 10px;
+    border: 1px transparent black;
+    box-shadow: 1px 1px 1px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+    height: 900px;
+}
+.photos img{
+    border: 1px solid transparent;
+    border-radius: 30px;
+}
+.book:hover{
+    transform: translate(10px);
+    transform: rotate(5deg);
+}
+.pro:hover{
+    transform: translate(10px);
+    transform: rotate(5deg);
+}
+.watch:hover{
+    transform: translate(10px);
+    transform: rotate(5deg);
+}
+.ipad:hover{
+    transform: translate(10px);
+    transform: rotate(5deg);
+}
+.pod:hover{
+    transform: translate(10px);
+    transform: rotate(5deg);
+}
+.photos img:hover{
+    transform: scale(2,2);
+}
+

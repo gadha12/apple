@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <diV class="main">
+        <div class="header" >
+            <ul>
+                <img src="../images/blank.webp">
+                <li> Store</li >
+                <li>Mac</li>
+                <li>ipad</li>
+                <li>iphone</li>
+                <li>Watch</li>
+                <li>Airpods</li>
+                <li>Tv & homes</li>
+                <li>Entertainments</li>
+                <li>Accessories</li>
+                <li>support</li>
+                <span class="material-symbols-outlined icon">
+                    search
+                    </span>
+                    <span class="material-symbols-outlined icon">
+                        shopping_bag
+                        </span>
+            </ul>
+        </div>
+            <h2>Apple Acccount</h2>
+            <div class="account">
+               <h1>Create Your own Apple Account</h1>
+            </div>
+            <div class="int1">
+                  <input type="text" placeholder="first name">
+                  <input type="text" placeholder="last name">
+            </div>
+            <div class="int2">
+                <input type="text" placeholder="country/region">
+            </div>
+            <div class="date">
+            <label>Date of birth</label></div>
+            <div class="int3">
+                   <input type="date">
+                   <input type="month">
+                   <input type="number" placeholder="year">
+            </div>
+            <div class="int4">
+             <input type="email" placeholder="email">
+             <input type="password" placeholder="password">
+             <input type="password" placeholder="confirm password">
+             <input type="number" placeholder="phone number">
+            </div>
+        </div> 
+</body>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    height: 50px;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    justify-content: center;
+    color:gray;
+}
+.header img{
+    height: 20px;
+    width: 20px;
+}
+.account{
+    display: flex;
+    justify-content: center;
+}
+.int1{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.int1 input{
+    height: 40px;
+    width: 230px;
+    border-radius: 10px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.int2 input{
+    height: 40px;
+    width: 473px;
+    border-radius: 10px;
+}
+.int2{
+    display: flex;
+    justify-content: center;
+}
+.int3 input{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+}
+.int3{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.date{
+    display: flex;
+    justify-content: center;
+}
+.int4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.int4 input{
+    height: 40px;
+    width: 473px;
+    border-radius: 10px;
+}
+@media(max-width:1100px){
+        .header ul{
+            font-size: 10px;
+        }
+        .icon{
+            font-size: 8px;
+        }
+        .header img{
+            height: 8px;
+            width: 8px;
+        }   
+    }
+    
+</style>
+</html>

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    height: 50px;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    justify-content: center;
+    color:gray;
+}
+.sub{
+    height: 50px;
+    background-color: rgb(75, 80, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.header img{
+    height: 20px;
+    width: 20px;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    gap: 30px;
+}
+.main{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 2250px;
+    width: 1500px;
+
+}
+.bt{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+button{
+    height: 40px;
+    width: 90px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: 1px solid transparent;
+}
+.high{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.p1 img{
+    height: 800px;
+    width: 900px;
+}
+.p1{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mage img{
+    height: 300px;
+    width: 900px;
+}
+.mage{
+    display: flex;
+    justify-content: center;
+}
+
+.p2 img{
+    display: flex;
+    height: 400px;
+    width: 300px; 
+}
+.p2{
+display: flex;
+height: 100px;
+width: 150px;
+gap: 60px;
+}
+.pic{
+    background-color: black;
+    height: 900px;
+}
